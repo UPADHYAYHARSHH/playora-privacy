@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Playora Support for help with bookings, payments, Playora Coins, accounts and other support requests." />
+  <title>Contact & Support | Playora</title>
+  <style>
+    :root {
+      --bg: #f7f9f8;
+      --surface: #ffffff;
+      --text: #17201b;
+      --muted: #66736b;
+      --primary: #159447;
+      --primary-dark: #0e7135;
+      --border: #e3e9e5;
+      --soft: #f0f8f3;
+      --max-width: 920px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--primary-dark);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .nav {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 16px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: -0.5px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      font-size: 14px;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 48px auto 80px;
+      padding: 0 22px;
+    }
+
+    .hero,
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+    }
+
+    .hero {
+      padding: 38px 34px;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: clamp(32px, 5vw, 46px);
+      line-height: 1.15;
+      letter-spacing: -1px;
+    }
+
+    .hero p {
+      margin: 0;
+      color: var(--muted);
+      max-width: 680px;
+      font-size: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      padding: 28px;
+    }
+
+    .icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: var(--soft);
+      color: var(--primary-dark);
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 21px;
+      line-height: 1.3;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    .email {
+      display: inline-block;
+      margin-top: 4px;
+      font-size: 18px;
+      font-weight: 700;
+      word-break: break-word;
+    }
+
+    .details {
+      margin-top: 8px;
+      padding-left: 20px;
+    }
+
+    .details li {
+      margin: 7px 0;
+    }
+
+    .full {
+      grid-column: 1 / -1;
+    }
+
+    .support-note {
+      margin-top: 24px;
+      padding: 18px 20px;
+      background: var(--soft);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .support-note strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--muted);
+      text-align: center;
+      padding: 24px 20px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 700px) {
+      .nav { padding: 14px 16px; }
+      .nav-links { gap: 10px; font-size: 12px; }
+      main { margin-top: 28px; padding: 0 14px; }
+      .hero { padding: 28px 22px; }
+      .card { padding: 24px 20px; }
+      .grid { grid-template-columns: 1fr; }
+      .full { grid-column: auto; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="../">Playora</a>
+      <div class="nav-links">
+        <a href="../">Privacy Policy</a>
+        <a href="../terms-and-conditions/">Terms</a>
+        <a href="../cancellation-refund-policy/">Cancellation &amp; Refund</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Contact &amp; Support</h1>
+      <p>
+        Need help with Playora? Contact our support team for assistance with bookings, payments,
+        Playora Coins, your account, privacy requests or other Playora-related questions.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <div class="icon">✉</div>
+        <h2>Customer Support</h2>
+        <p>
+          For general questions, booking issues and account support, email us at:
+        </p>
+        <a class="email" href="mailto:playora.support@gmail.com">
+          playora.support@gmail.com
+        </a>
+      </article>
+
+      <article class="card">
+        <div class="icon">₹</div>
+        <h2>Payment &amp; Refund Support</h2>
+        <p>
+          Contact us if you have a payment failure, duplicate payment, payment deducted without
+          booking confirmation, or an approved refund that needs investigation.
+        </p>
+        <p>
+          Please include your booking ID and transaction/reference ID.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="icon">●</div>
+        <h2>Booking Support</h2>
+        <p>
+          For booking-related questions, please provide:
+        </p>
+        <ul class="details">
+          <li>Booking ID</li>
+          <li>Registered email address</li>
+          <li>Venue name</li>
+          <li>Booking date and time</li>
+          <li>A brief description of the issue</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="icon">+</div>
+        <h2>Playora Coins</h2>
+        <p>
+          If you have a question about Coin credits, expiry, redemption or a cancellation-related
+          Coin adjustment, contact us with your booking ID and relevant details.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="icon">◎</div>
+        <h2>Privacy &amp; Data Requests</h2>
+        <p>
+          For account deletion, personal-data requests, privacy questions or concerns about how
+          Playora handles your information, contact:
+        </p>
+        <a class="email" href="mailto:playora.support@gmail.com">
+          playora.support@gmail.com
+        </a>
+      </article>
+
+      <article class="card">
+        <div class="icon">◆</div>
+        <h2>Venue &amp; Partner Support</h2>
+        <p>
+          Sports facilities and venue operators interested in working with Playora can contact us
+          using the same support email.
+        </p>
+        <a class="email" href="mailto:playora.support@gmail.com">
+          playora.support@gmail.com
+        </a>
+      </article>
+
+      <article class="card full">
+        <h2>How to Get Faster Help</h2>
+        <p>
+          When contacting Playora, please use the email address associated with your account and
+          provide as much relevant information as possible.
+        </p>
+
+        <div class="support-note">
+          <strong>Important</strong>
+          Never send your password, OTP, card PIN, UPI PIN, CVV or other sensitive authentication
+          credentials to Playora Support by email.
+        </div>
+      </article>
+
+      <article class="card full">
+        <h2>Playora</h2>
+        <p>
+          Sports booking platform serving users in India.
+        </p>
+        <p>
+          <strong>Support email:</strong>
+          <a href="mailto:playora.support@gmail.com">playora.support@gmail.com</a>
+        </p>
+        <p>
+          <strong>Country:</strong> India
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Playora. All rights reserved.
+  </footer>
+</body>
+</html>
